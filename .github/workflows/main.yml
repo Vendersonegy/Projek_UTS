@@ -19,7 +19,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       -
         name: Build image
-        run: docker build -t 221111018jordan/fe-app:latest .
+        run: docker build -t 221111018jordan/fe-app:v1 .
       -
         name: Push image
-        run: docker push 221111018jordan/fe-app:latest
+        run: docker push 221111018jordan/fe-app:v1
