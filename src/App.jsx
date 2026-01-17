@@ -112,7 +112,7 @@ function App() {
   // Bagian JSX (return) tidak ada perubahan sama sekali
   return (
     <div className="app-container">
-      <h1>v3 (Full Stack CRUD)</h1>
+      <h1>C3 UAS CRUD (Full Stack CRUD)</h1>
       <form onSubmit={handleSubmit} className="task-form">
         <input
           type="text"
